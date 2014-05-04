@@ -1,0 +1,27 @@
+{
+  "name": "jscs-teamcity-reporter",
+  "version": "0.0.1",
+  "description": "A teamcity reporter for JSCS",
+  "scripts": {
+    "lint": "jshint . && jscs .",
+    "test": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wurmr/jscs-teamcity-reporter.git"
+  },
+  "keywords": [
+    "teamcity",
+    "jscs",
+    "reporter"
+  ],
+  "author": "jkarg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wurmr/jscs-teamcity-reporter/issues"
+  },
+  "devDependencies": {
+    "jscs": "^1.4.0",
+    "jshint": "^2.5.0"
+  }
+}

@@ -1,0 +1,4 @@
+{
+	"preset": "google",
+	"excludeFiles": ["node_modules"]
+}
