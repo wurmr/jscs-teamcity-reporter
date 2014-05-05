@@ -1,4 +1,6 @@
-# jscs-teamcity-reporter [![Build Status](https://travis-ci.org/wurmr/jscs-teamcity-reporter.svg?branch=master)](https://travis-ci.org/wurmr/jscs-teamcity-reporter)
+# jscs-teamcity-reporter
+
+[![Build Status](https://travis-ci.org/wurmr/jscs-teamcity-reporter.svg?branch=master)](https://travis-ci.org/wurmr/jscs-teamcity-reporter) [![Dependencies](https://david-dm.org/wurmr/jscs-teamcity-reporter.svg)](https://david-dm.org/wurmr/jscs-teamcity-reporter#info=dependencies&view=table) [![DevDependecies](https://david-dm.org/wurmr/jscs-teamcity-reporter/dev-status.svg)](https://david-dm.org/wurmr/jscs-teamcity-reporter#info=devDependencies&view=table)
 
 
 A team city reporter for use with [node-jscs](https://github.com/mdevils/node-jscs).
