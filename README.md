@@ -23,7 +23,7 @@ To use, point `jscs` at the reporter.
 ### Command line
 
 ```
-jscs . --reporter jscs-teamcity-reporter.js
+jscs . --reporter teamcity-reporter.js
 ```
 
 ### Using [grunt-jscs-checker](https://github.com/gustavohenke/grunt-jscs-checker)
