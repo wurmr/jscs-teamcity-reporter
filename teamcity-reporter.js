@@ -7,7 +7,7 @@ var util = require("util");
 module.exports = function(errorsCollection) {
     var errorCount = 0;
 
-    console.log(util.format("##teamcity[testSuiteStarted name='JSCS']"));
+    console.log("##teamcity[testSuiteStarted name='JSCS']");
 
     /**
      * Formatting every error set.
@@ -27,8 +27,8 @@ module.exports = function(errorsCollection) {
     });
 
     if (errorCount === 0) {
-       console.log(util.format("##teamcity[testStarted name='JSCS']"));
-       console.log(util.format("##teamcity[testFinished name='JSCS']"));
+       console.log("##teamcity[testStarted name='JSCS']");
+       console.log("##teamcity[testFinished name='JSCS']");
     }
 
     console.log(util.format("##teamcity[testSuiteFinished name='JSCS']"));
