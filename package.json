@@ -1,6 +1,6 @@
 {
   "name": "jscs-teamcity-reporter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A teamcity reporter for JSCS",
   "scripts": {
     "lint": "jshint . && jscs .",
