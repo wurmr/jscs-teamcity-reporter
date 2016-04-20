@@ -21,7 +21,7 @@
     "url": "https://github.com/wurmr/jscs-teamcity-reporter/issues"
   },
   "devDependencies": {
-    "jscs": "^1.4.0",
-    "jshint": "^2.5.0"
+    "jscs": "^3.0.3",
+    "jshint": "^2.9.2"
   }
 }
