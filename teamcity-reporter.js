@@ -21,7 +21,7 @@ module.exports = function(errorsCollection) {
         errorCount++;
         console.log(util.format(
           '##teamcity[testFailed name=\'%s\' message=\'line %d, col %d, %s\']',
-          file, error.line, error.column, error.message));
+          file, error.line, error.column, error.message.replace('\'', '|\'')));
       });
       console.log(util.format('##teamcity[testFinished name=\'%s\']', file));
     }
